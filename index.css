@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1920px;
+}
+.headerstyle {
+  text-align: "center";
+  color: #333;
+  height: 250px;
+  background-color: white;
+  position: relative;
+}
+.appss {
+  position: absolute;
+  top: 113px;
+  left: 0px;
+}
+.statistic {
+  display: inline-flex;
+  text-align: left;
+  position: absolute;
+  top: -150px;
+  left: 800px;
+}
+.totalAmount {
+  display: inline-flex;
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: -300px;
+}
+.time {
+  text-align: right;
+  color: black;
+}
+.procent {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
+  width: 60px;
+  height: 30px;
+}
+
+.procent.red {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
+  width: 60px;
+  height: 30px;
+  color: red;
+}
+.procent.green {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
+  width: 60px;
+  height: 30px;
+  color: green;
+}
+
+.info {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 16px;
+  width: 250px;
+  height: 5px;
+  font-size: "16px";
+  margin-right: 80px;
+  margin-left: -132px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.amount {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 14px 5px;
+  width: 50px;
+  height: 5px;
+  font-size: "16px";
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.title {
+  display: inline-flex;
+  padding: 5px 80px;
+}
+.titlefirst {
+  display: inline-flex;
+  padding: 5px 200px;
+  margin-left: -280px;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  display: inline;
+  margin-left: 80px;
+  margin-right: 60px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background: #3e6ae1;
+  color: #a1a0ac;
+}
+
+.add {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  display: inline;
+  margin-right: -1500px;
+}
+
+.remove {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  display: inline;
+}
+
+.add:hover {
+  opacity: 0.8;
+}
+
+.add:active {
+  background: #3e6ae1;
+  color: #a1a0ac;
+}
